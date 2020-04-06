@@ -4,7 +4,7 @@
 }
 /* text overlay for portfolio images*/
 .overlay {
-    background-color: #333a40;
+    background-color: #333;
     padding: 5px 0;
     color: white;
     text-align: center;
@@ -16,6 +16,7 @@
     left: 50%;
     transform: translate( -50%, -50% );
     text-align: center;
+    padding-left:5px;
 }
 /* container styles */
 .row-gap {
@@ -26,16 +27,23 @@
     margin-bottom: 500px;
     padding-top: 25px;
     padding-bottom: 50px;
-    background-color: lavender;
+    background-color: #333;
 }
 /*image styles */
 .img {
     display: block;
+    width: 350px;
 }
 
 .proj-img {
     position: relative;
     display: inline-block;
+}
+.port-text {
+    font-size: 15px;
+}
+.github-icon {
+    text-align: right;
 }
 
 
