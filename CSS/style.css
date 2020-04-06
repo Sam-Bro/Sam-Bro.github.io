@@ -2,6 +2,11 @@
 .body  {
     background-color: #111;
     color: white;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+    height: 1000px;
+}
+p {
+    font-size: 24px;
 }
 /*coloured title in navbar*/
 .nav-title {
@@ -37,34 +42,49 @@ padding-right: 5px;
 .prof-about-card {
     margin-top: 2%;
     margin-left: 5%;
-    background-color: grey ;
+    background-color: #333333 ;
 }
 .card-width {
     width: 80%;
     min-width: 200px;
 }
 .card-text {
-    width: 60%;
+    margin: 0;
+    width: 70%;
+    font-size: 1.2em;
 
 }
-.prof-img {
-margin-left: 20%;
-}
+
 /* profile block styles */
 .profile-img-col {
     display: block;
 }
 .profile-text-col {
-    margin-top: 5%;
+    margin-top: 2%;
 }
 #profile-title {
     color: #8300e9;
+    padding-bottom: 15px;
 }
 .prof-img {
     margin-left: 20%;
     width: 50%;
     border-radius: 5%;
-    }
+}
+.prof-img {
+margin-left: 20%;
+}
+.center-70 {
+    width: 70%;
+    text-align: center;
+}
+.my-link {
+    color: #8300e9;
+}
+
+.view-work {
+    padding-top: 3%;
+}
 /*grey border between content card title and card content */
 .about-border {
     padding-bottom: 10px;
